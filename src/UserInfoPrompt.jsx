@@ -24,6 +24,7 @@ export default function UserInfoPrompt({ onSubmit, initialGameId }) {
       onSubmit({ name, userId, game: selectedGame });
     }
   };
+  
 
   const game = gameCategories.find(g => g.id === selectedGame);
 
